@@ -1,0 +1,97 @@
+.bestdeals{
+    display: flex;
+     justify-content: space-between;
+     padding: 20px 14px;
+}
+.bestdeals-head h6{
+font-size: 22px;
+margin-bottom: 0px;
+}
+.bestdeals-view button {
+    background: white;
+    border-color: #f5831a;
+    color: #f5831a;
+    box-shadow: none;
+    border-radius: 5px; padding: 3px;
+    font-size: 12px;
+}
+
+.bestdeals-content{
+    margin-top: 200px;
+
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bestdeals-sub{
+  padding: 0px 0px 30px 0px;
+    min-width: 100%;
+    display: flex;
+    overflow-x: auto; 
+
+}
+.bestdeals-sub::-webkit-scrollbar {
+    display: none;
+  }
+  .bestdeals-card{
+    border: 1px solid #d5d5d5;
+  }
+.bestdealshead{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.bestdeals-card img{
+    width: 185px;
+}
+.cardbottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+.cardbottom .price .error{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #f5831a;
+    margin-bottom: 0px;font-weight: 600;padding: 0px;
+}
+.cardbottom .price .real{
+    font-size: 12px;
+    padding: 0px;
+    color: black;
+    margin-bottom: 0px;font-weight: 700;
+}
+.cardbottom .addtocart{
+    color: white;
+    background: #f5831a;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    padding: 5px 0px;
+}
+.bestdeals-card p{
+    font-size: 14px;
+    text-align: start;
+   
+    padding: 6px;
+    margin-bottom: 0px;
+}
+/* .bestdeals-content{
+    min-width: 100%;
+
+    display: flex;
+    overflow-x: auto; 
+}
+
+.bestdeals-content .bestdeals-card{
+    width: 200px;
+
+margin: 10px; 
+}
+.bestdeals-content .bestdeals-card img{
+    width: 100%;
+} */
+.bottom{
+    height: 25px;
+}

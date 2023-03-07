@@ -1,0 +1,108 @@
+.bestdeals{
+    display: flex;
+     justify-content: space-between;
+     padding: 12px;
+}
+.bestdeals-head h6{
+font-size: 22px;
+}
+.bestdeals-view button {
+    background: white;
+    border-color: #f5831a;
+    color: #f5831a;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 3px;
+font-size: 12px;
+}
+
+.computer-content{
+    margin-top: 200px;
+
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.computer-sub{
+  padding: 0px 0px 30px 0px;
+    min-width: 100%;
+    display: flex;
+    overflow-x: auto; 
+
+}
+.computer-sub::-webkit-scrollbar {
+    display: none;
+  }
+  .computer-card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5px;
+    /* border: 1px solid #d5d5d5; */
+  }
+.computerhead{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.computer-card img{
+    width: 172px;
+}
+.computercardbottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 6px;margin-bottom: 10px;
+}
+.computercardbottom .computerprice .computererror{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #f5831a;
+    margin-bottom: 0px;font-weight: 600;padding: 0px;
+}
+.computercardbottom .computerprice .computerreal{
+    font-size: 12px;
+    padding: 0px;
+    color: black;
+    margin-bottom: 0px;font-weight: 700;
+}
+.computercardbottom .computeraddtocart{
+    color: white;
+    background: #f5831a;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    padding: 5px 0px;
+}
+.computer-card p{
+    font-size: 14px;
+    text-align: start;
+   
+    padding: 6px;
+    margin-bottom: 0px;
+}
+.computerprice button{
+    background: #f5831a;
+    border-color: #f5831a;
+    color: #fff;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 2px 14px;
+font-size: 12px;
+}
+.computerhead .star{
+    font-size: 12px;
+}
+/* .bestdeals-content{
+    min-width: 100%;
+
+    display: flex;
+    overflow-x: auto; 
+}
+
+.bestdeals-content .bestdeals-card{
+    width: 200px;
+
+margin: 10px; 
+}
+.bestdeals-content .bestdeals-card img{
+    width: 100%;
+} */
