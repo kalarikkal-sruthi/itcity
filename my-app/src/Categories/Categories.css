@@ -13,8 +13,9 @@
 }
 .dd p{
   text-align: center;
-    font-size: 12px;
-    margin: 10px 0px;
+  font-size: 13px;
+  margin: 10px 0px;
+  letter-spacing: .5px;
 }
 .category-main{
     margin-top: 20px;

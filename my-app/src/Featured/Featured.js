@@ -13,7 +13,7 @@ function Featured() {
 background: '#d5d5d5'}}></hr>
     <div className='bestdeals'>
         <div className='bestdeals-head'>
-            <h6>Featured Products</h6>
+            <h2>Featured Products</h2>
         </div>
         <div className='bestdeals-view'>
             <Button>View All</Button>

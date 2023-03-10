@@ -13,7 +13,7 @@ function Computer() {
 background: '#d5d5d5'}}></hr>
     <div className='bestdeals'>
         <div className='bestdeals-head'>
-            <h6>Computer Collection</h6>
+            <h2>Computer Collection</h2>
         </div>
         <div className='bestdeals-view'>
             <Button>View All</Button>

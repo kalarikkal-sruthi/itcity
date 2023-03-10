@@ -5,7 +5,7 @@
 }
 .bestdeals-head h6{
 font-size: 22px;
-margin-bottom: 0px;
+margin-bottom: 0px;font-weight: bold;
 }
 .bestdeals-view button {
     background: white;
@@ -14,7 +14,7 @@ margin-bottom: 0px;
     box-shadow: none;
     border-radius: 5px;
     padding: 3px;
-font-size: 12px;
+font-size: 13px;
 }
 
 .bestdeals-content{
@@ -61,7 +61,8 @@ font-size: 12px;
     font-size: 12px;
     padding: 0px;
     color: black;
-    margin-bottom: 0px;font-weight: 600;
+    margin-bottom: 0px;
+    font-weight: 600;
 }
 .cardbottom .addtocart{
     color: white;
@@ -74,13 +75,51 @@ font-size: 12px;
 .bestdeals-card p{
     font-size: 12px;
     text-align: start;
- 
+    font-weight: bold;
     padding: 6px;
     margin-bottom: 0px;
 }
 .bestdealshead .star{
     font-size: 12px;
 }
+
+
+.newdesign{
+    padding: 1rem;
+    margin: 20px;
+}
+.newdesign img{
+    width: 176px;margin: 15px;
+}
+.newdesign:hover {
+   
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.newbtn{
+    margin-top: 15px;
+    /* background: #f5831a;   */
+    background-color: black;
+    border: none;
+}
+.newbtn:hover{
+    margin-top: 15px;
+    /* background: #f5831a;   */
+    background-color: black;
+    border: none;
+}
+.newdesign .newbtn{
+ visibility: hidden;
+
+}
+.newdesign:hover .newbtn{
+    visibility: visible;
+    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+}
+.newdesign:hover {
+    visibility: visible;
+    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+}
+
 /* .bestdeals-content{
     min-width: 100%;
 

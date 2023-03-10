@@ -11,7 +11,7 @@ function Popular() {
     <>
     <div className='bestdeals'>
         <div className='bestdeals-head'>
-            <h6 >Popular Products</h6>
+            <h2>Popular Products</h2>
         </div>
         <div className='bestdeals-view'>
             <Button>View All</Button>

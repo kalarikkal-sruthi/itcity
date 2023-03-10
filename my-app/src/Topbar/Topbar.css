@@ -8,6 +8,9 @@
 .top .nav .nav-link{
     color: white;
 }
+.top .navbar-brand{
+  flex-grow: 1;
+}
 .country-code{
     background: black;
 
@@ -21,7 +24,7 @@
 }
 .brand-logo img{
     width: 150px;
-    margin-right: 110px;
+   
 }
 .searchicon{
     background: white;

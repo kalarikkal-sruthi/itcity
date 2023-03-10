@@ -81,7 +81,7 @@ function Categories() {
        
     </div>
     <div className='bannerimage'>
-    <img src="/1619303984.jpeg" alt=""></img>
+    <img src="/homeslider/1659393213.jpeg" alt=""></img>
    </div>
    </>
   )

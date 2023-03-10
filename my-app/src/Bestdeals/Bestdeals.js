@@ -10,15 +10,61 @@ function Bestdeals() {
         <>
             <div className='bestdeals'>
                 <div className='bestdeals-head'>
-                    <h6>Best Deals</h6>
+                    <h2 className='pe-5'>Best Deals</h2>
                 </div>
                 <div className='bestdeals-view'>
                     <Button>View All</Button>
                 </div>
             </div>
-
+          
             <div className='bestdeals-content'>
+
+          
                 <div className='bestdeals-sub'>
+
+                
+                <div className='newdesign'>
+                  <img src="/products/1674286541.jpg" alt=""></img>
+                    <p style={{fontWeight:' 600',fontSize:'1.125rem',marginBottom:'0.5rem'}}>Vonmahlen All in one cable - White</p>
+                    <p style={{fontSize:'1.375rem',marginBottom:"4px",color:"#f5831a"}} class="  ">149.900 KD</p>
+                    <div class="font-body"><span style={{MarginBottom: '4px'}} class=" ">204.900 KD</span>  <span class=""  style={{background: '#f5831a',padding:'3px 3px',fontSize:"12px",color:"white"}}>27%</span></div>
+                     <Button className='w-100 newbtn'>Add To Cart</Button>
+             </div>
+             <div className='newdesign'>
+                  <img src="/products/1674286541.jpg" alt=""></img>
+                    <p style={{fontWeight:' 600',fontSize:'1.125rem',marginBottom:'0.5rem'}}>Vonmahlen All in one cable - White</p>
+                    <p style={{fontSize:'1.375rem',marginBottom:"4px",color:"#f5831a"}} class="  ">149.900 KD</p>
+                    <div class="font-body"><span style={{MarginBottom: '4px'}} class=" ">204.900 KD</span>  <span class=""  style={{background: '#f5831a',padding:'3px 3px',fontSize:"12px",color:"white"}}>27%</span></div>
+                     <Button className='w-100 newbtn'>Add To Cart</Button>
+             </div>
+             <div className='newdesign'>
+                  <img src="/products/1674286541.jpg" alt=""></img>
+                    <p style={{fontWeight:' 600',fontSize:'1.125rem',marginBottom:'0.5rem'}}>Vonmahlen All in one cable - White</p>
+                    <p style={{fontSize:'1.375rem',marginBottom:"4px",color:"#f5831a"}} class="  ">149.900 KD</p>
+                    <div class="font-body"><span style={{MarginBottom: '4px'}} class=" ">204.900 KD</span>  <span class=""  style={{background: '#f5831a',padding:'3px 3px',fontSize:"12px",color:"white"}}>27%</span></div>
+                     <Button className='w-100 newbtn'>Add To Cart</Button>
+             </div>
+             <div className='newdesign'>
+                  <img src="/products/1674286541.jpg" alt=""></img>
+                    <p style={{fontWeight:' 600',fontSize:'1.125rem',marginBottom:'0.5rem'}}>Vonmahlen All in one cable - White</p>
+                    <p style={{fontSize:'1.375rem',marginBottom:"4px",color:"#f5831a"}} class="  ">149.900 KD</p>
+                    <div class="font-body"><span style={{MarginBottom: '4px'}} class=" ">204.900 KD</span>  <span class=""  style={{background: '#f5831a',padding:'3px 3px',fontSize:"12px",color:"white"}}>27%</span></div>
+                     <Button className='w-100 newbtn'>Add To Cart</Button>
+             </div>
+             <div className='newdesign'>
+                  <img src="/products/1674286541.jpg" alt=""></img>
+                    <p style={{fontWeight:' 600',fontSize:'1.125rem',marginBottom:'0.5rem'}}>Vonmahlen All in one cable - White</p>
+                    <p style={{fontSize:'1.375rem',marginBottom:"4px",color:"#f5831a"}} class="  ">149.900 KD</p>
+                    <div class="font-body"><span style={{MarginBottom: '4px',textDecoration:"line-through"}} class=" ">204.900 KD</span>  <span class=""  style={{background: '#f5831a',padding:'3px 3px',fontSize:"12px",color:"white"}}>27%</span></div>
+                     <Button className='w-100 newbtn'>Add To Cart</Button>
+             </div>
+
+
+
+
+
+{/* 
+
                   <div className='bestdeals-card'>
                         <div className="bestdealshead">
                             <div className='star'>
@@ -41,6 +87,11 @@ function Bestdeals() {
                             </div>
                         </div>
                     </div>
+
+
+
+
+
                     <div className='bestdeals-card'>
                         <div className="bestdealshead">
                             <div className='star'>
@@ -196,7 +247,7 @@ function Bestdeals() {
                                 <ShoppingCartOutlinedIcon variant="outlined" />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                   
 
 
@@ -205,7 +256,7 @@ function Bestdeals() {
 
             </div>
             <div className='bannerimage'>
-                <img src="/banner/1.jpg" alt=""></img>
+            <img src="/homeslider/1659393213.jpeg" alt=""></img>
             </div>
 
 

@@ -10,7 +10,7 @@ function Mobile() {
     
 <div className='bestdeals'>
                 <div className='bestdeals-head'>
-                    <h6>Mobile Collections</h6>
+                    <h2>Mobile Collections</h2>
                 </div>
                 <div className='bestdeals-view'>
                     <Button>View All</Button>
@@ -18,7 +18,7 @@ function Mobile() {
             </div>
             
             <div className='bannerimage'>
-                <img src="/1619303984.jpeg" alt=""></img>
+            <img src="/homeslider/1659393213.jpeg" alt=""></img>
             </div>
  <div className='mobile-contents'>
                 <div className='mobile-sub'>
@@ -184,7 +184,7 @@ function Mobile() {
             </div>
 
             <div className='bannerimage'>
-                <img src="/banner/1524474030.jpg" alt=""></img>
+            <img src="/homeslider/1659393213.jpeg" alt=""></img>
             </div>
     </div>
   )

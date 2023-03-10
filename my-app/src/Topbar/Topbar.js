@@ -5,9 +5,12 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
+import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import './Topbar.css'
+import { fontSize } from '@mui/system';
 
 
 function Topbar() {
@@ -16,10 +19,13 @@ function Topbar() {
     <div className='top'>
       <Navbar expand="lg" style={{Padding:'0px'}}>
         <Container fluid>
+        {/* <MenuOutlinedIcon  sx={{color:'#fff',margin:'2px'}} variant="outlined" /> */}
           <Navbar.Toggle className='border-0' aria-controls="navbarScroll"  />
-          <Navbar.Brand  className='brand-logo' chref="#">
+          <Navbar.Brand  className='brand-logo' chref="#" >
             <img src="/itcitylogo-white.png" alt=""></img>
           </Navbar.Brand>
+         
+     
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0 text-white"
@@ -35,33 +41,23 @@ function Topbar() {
               <Nav.Link href="#action2" className='text-white'>Sign Out</Nav.Link>
              
             </Nav>
+           
           </Navbar.Collapse>
+          <Person2OutlinedIcon sx={{color:'#fff',margin:'2px' }} variant="outlined" />
+          <ShoppingCartOutlinedIcon sx={{color:'#fff',margin:'2px'}} variant="outlined" />
         </Container>
       </Navbar>
       <Container>
       
       <div className='search'>
         
-      {/* <Form className="searchBar">
-        <Form.Control
-          type="search"
-          placeholder="Search Products,Brands and More"
-          className="rounded-0 border-0"
-          aria-label="Search"
-        />
-        <Button className="searchicon rounded-0 border-0" >
-<SearchOutlinedIcon variant="outlined" sx={{color:"black"}}/>
 
-        </Button>
-      </Form>   */}
-      <div className="searchBar">
+    <div className="searchBar">
     <input id="searchQueryInput" type="text"  placeholder="Search Products,Brands and More" />
     <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
     <SearchOutlinedIcon variant="outlined" sx={{color:"black"}}/>
     </button>
   </div>
-
-
       </div>
       </Container>
     
@@ -70,7 +66,7 @@ function Topbar() {
         <p>Country:Kuwait</p>
       </div>
       <div className='coutry'>
-        <p>CHANGE</p>
+        <p>LANGUAGE</p>
       </div>
 
 

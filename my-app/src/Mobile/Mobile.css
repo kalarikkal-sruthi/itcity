@@ -89,10 +89,11 @@ font-size: 12px;
 }
 
 .mobile-card p {
-    color:#f5831a;
+    /* color:#f5831a; */
     font-size: 13px;
     text-align: center;
     
     padding: 6px;
     margin-bottom: 0px;
+    
 }
